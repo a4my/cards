@@ -275,3 +275,95 @@ body {
     background-color: #013d4a;
     color: #fff;
 }
+
+
+
+
+
+
+/* CARD-5 */
+
+.card-5 {
+    margin-top: 100px;
+    position: relative;
+    width: 300px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.face-5 {
+    position: relative;
+    width: 300px;
+    height: 240px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    transform: translateY(100px);
+    z-index: 1;
+}
+
+.face-5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-5:hover .face-5 {
+    background-color: #0099ff;
+    transform: translateY(0);
+}
+
+.face-52 {
+    position: relative;
+    width: 300px;
+    height: 195px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transition: .5s;
+    transform: translateY(-100px);
+}
+
+
+.card-5:hover .face-52 {
+    transform: translateY(0);
+}
+
+.imgbox-5 {
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.card-5:hover .imgbox-5 {
+    opacity: 1;
+}
+
+.card-5 a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #777;
+    padding: 5px;
+    border: 1px solid #777;
+}
+
+.content-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-5 a:hover {
+    background-color: #777;
+    color: #fff;
+} 
